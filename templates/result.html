@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Classifier</title>
+    <link rel="stylesheet" href="./static/stylesheet.css">
+</head>
+<body>
+    <header>
+        <img class="header_img" src="https://aidemy.net/static/media/logo-white.66c48400.svg" alt="Aidemy">
+        <a class="header-logo" href="#">Number Classifier</a>
+    </header>
+
+    <div class="main">
+        <div class="answer">
+            <p><img alt="判定画像" src="{{img}}"></p>
+            <p>{{answer}}</p>
+                <a href={{url_for('index')}}>
+                    <input class="btn" value="もう一度判定する" type="submit">
+                </a>
+        </div>
+    </div>
+
+    <footer>
+        <img class="footer_img" src="https://aidemy.net/static/media/logo.eb4d1a66.svg" alt="Aidemy">
+        <small>&copy; 2019 Aidemy, inc.</small>
+    </footer>
+</body>
+</html>
